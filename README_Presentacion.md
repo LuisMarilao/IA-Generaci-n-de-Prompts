@@ -1,5 +1,5 @@
 # Lector de percepción pública político-social
-
+![alt text](image.png)
 
 ### Nombre del proyecto
 **Lector de percepción pública político-social**
