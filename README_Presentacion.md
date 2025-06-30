@@ -68,6 +68,9 @@ Prompt II:
 Analiza la siguiente tabla de análisis de noticias públicas del acontecer chileno, notando relaciones entre las distintas noticias y sus implicancias sociales,políticas y económicas.
 Entrega propuestas de iniciativas o acciones que podrían tomarse para abordar las problemáticas identificadas.
 
+Prompt III:
+People of working class looking at their cellphones and looking around. No text or letters in the image.
+
 Tabla de análisis
 
 ## Justificación de la viabilidad del proyecto
@@ -97,8 +100,10 @@ Desarrollar un sistema de análisis socio-político automatizado basado en lengu
 
 - **Lenguaje:** Python (en Jupyter Notebook).
 - **Modelo:** OpenAI GPT 3.5 (usando la API).
+- **Modelo:** Dall-e 3 (usando la API)
 - **Técnica de prompting:** Zero-shot y few-shot prompting.
 - **Librerías:** `openai`, `pandas`, entre otras.
+
 
 El uso de **zero-shot prompting** permite analizar textos sin necesidad de entrenamiento previo, adaptándose fácilmente a nuevos discursos.
  **Few-shot prompting** se usa en el primer prompt para parametrizar el resultado del primer análisis
@@ -110,6 +115,12 @@ El archivo Jupyter adjunto (`fast_prompting_en_accion.ipynb`) contiene:
 - La estructura modular para ejecutar prompts.
 - Código de conexión con la API de OpenAI.
 - Pruebas iniciales con discursos y resultados clasificados.
+
+El archivo Jupyter adjunto (generating_image_openai.ipynb`) contiene:
+- Código de conexión a API de Dall-e 3 de OpenAI
+
+El archivo .png (`Portada_Proyecto`):
+- Imagen output de prompting a modelo Dall-e
 
 
 ## Nombre estudiante: Luis Ignacio Marilao Lepicheo
